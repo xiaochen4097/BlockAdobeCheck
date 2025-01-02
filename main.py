@@ -46,3 +46,5 @@ with open('C:\\Windows\\System32\\Drivers\\etc\\hosts', "r+") as f:
 	for line in host:
 		if line not in content:
 			f.write("\n" + line)
+print("Successfully added the list to the hosts file")
+input("Press enter to exit...")
