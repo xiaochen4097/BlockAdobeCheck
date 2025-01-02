@@ -1,4 +1,4 @@
-# syncadobeblockip
+# Sync Host List from adoveisadumb
 Sync Host List from adoveisadumb
 
 IP and domain list is from https://github.com/ignaciocastro/a-dove-is-dumb
