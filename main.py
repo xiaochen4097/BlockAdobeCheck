@@ -3,14 +3,15 @@ import os
 import ctypes
 
 def is_admin():
-    try:
-        return ctypes.windll.shell32.IsUserAnAdmin()
-    except:
-        return False
+	try:
+		return ctypes.windll.shell32.IsUserAnAdmin()
+	except:
+		return False
 
 if not is_admin():
-    print("Please run this script as administrator")
-    exit()
+	print("Please run this script as administrator")
+	input("Press enter to exit...")
+	exit()
 
 url = "https://adobe.isdumb.one/list.txt"
 response = requests.get(url)
